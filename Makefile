@@ -6,3 +6,6 @@ start:
 
 publish: 
 	yarn publish
+
+lint:
+	npm run eslint
