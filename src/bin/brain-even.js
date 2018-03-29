@@ -1,7 +1,8 @@
 #!/usr/bin/env node
-import { welcome, askName, showName } from '../index';
+import { welcome, askName, playEven } from '../index';
 
-const EVEN = true;
+const EVEN_GAME = true;
 
-welcome(EVEN);
+welcome(EVEN_GAME);
 const name = askName();
+playEven(name);
