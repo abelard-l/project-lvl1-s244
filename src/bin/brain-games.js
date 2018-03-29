@@ -1,4 +1,4 @@
-#!/usr/bin/node
-import hello from "../index";
+#!/usr/bin/env node
+import hello from '../index';
 
 hello();
