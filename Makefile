@@ -13,6 +13,9 @@ start-brain-calc:
 start-brain-gcd:
 	yarn run babel-node src/bin/brain-gcd.js
 
+start-brain-balance:
+	yarn run babel-node src/bin/brain-balance.js
+
 publish: 
 	yarn publish
 
