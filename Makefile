@@ -7,6 +7,9 @@ start:
 start-brain-even:
 	yarn run babel-node src/bin/brain-even.js
 
+start-brain-calc:
+	yarn run babel-node src/bin/brain-calc.js
+
 publish: 
 	yarn publish
 

@@ -1,5 +1,6 @@
 #!/usr/bin/env node
-import { welcome, askName, playEven } from '../index';
+import { welcome, askName } from '../index';
+import playEven from '../games/even';
 
 const EVEN_GAME = true;
 
