@@ -1,6 +1,6 @@
 {
   "name": "brain-games-ab",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Brain games project",
   "main": "index.js",
   "repository": "https://github.com/abelard-l/project-lvl1-s244.git",
@@ -9,7 +9,7 @@
   "bin": {
     "brain-games": "dist/bin/brain-games.js",
     "brain-even": "dist/bin/brain-even.js",
-    "brain-calc": "dist/bin/brain-calc"
+    "brain-calc": "dist/bin/brain-calc.js"
   },
   "files": [
     "dist"
