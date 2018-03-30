@@ -34,4 +34,4 @@ const playCalc = () => {
   };
 };
 
-export default () => go('What is the result of the expression?', playCalc, 3);
+export default () => go('What is the result of the expression?', playCalc);

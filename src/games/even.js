@@ -16,4 +16,4 @@ const playEven = () => {
   };
 };
 
-export default () => go('Answer "yes" if number even otherwise answer "no".', playEven, 3);
+export default () => go('Answer "yes" if number even otherwise answer "no".', playEven);

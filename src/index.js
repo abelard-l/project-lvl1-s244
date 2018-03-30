@@ -15,13 +15,13 @@ const showName = (name) => {
   console.log(`Hello, ${name}!`);
 };
 
-const go = (secondMsg, game, numOfPlays) => {
+const go = (secondMsg, game) => {
   welcome(secondMsg);
   const name = askName();
   showName(name);
 
   if (game) {
-    for (let i = 0; i < numOfPlays; i += 1) {
+    for (let i = 0; i < 3; i += 1) {
       const { question, rightAnswer } = game();
       console.log(`Question: ${question}`);
       const userAnswer = readlineSync.question('Your answer: ');

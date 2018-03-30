@@ -10,6 +10,9 @@ start-brain-even:
 start-brain-calc:
 	yarn run babel-node src/bin/brain-calc.js
 
+start-brain-gcd:
+	yarn run babel-node src/bin/brain-gcd.js
+
 publish: 
 	yarn publish
 
