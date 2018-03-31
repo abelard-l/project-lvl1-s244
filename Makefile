@@ -19,6 +19,9 @@ start-brain-balance:
 start-brain-progression:
 	yarn run babel-node src/bin/brain-progression.js
 
+start-brain-prime:
+	yarn run babel-node src/bin/brain-prime.js
+
 publish: 
 	yarn publish
 
